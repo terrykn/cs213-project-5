@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private int orderNumber = 1; // this is the order number we can use to pass into the Order constructor
 
     // test
+    private int test = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
