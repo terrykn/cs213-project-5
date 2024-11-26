@@ -9,6 +9,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class ChicagoStyleActivity extends AppCompatActivity {
+    private HomeActivity homeActivity;
+    private final PizzaFactory CpizzaFactory = new ChicagoPizza();
+    private Pizza currentPizza; //create a ChicagoStylePizza created with pizzaFactory
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

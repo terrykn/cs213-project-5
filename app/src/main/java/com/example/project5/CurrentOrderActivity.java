@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class CurrentOrderActivity extends AppCompatActivity {
+    private HomeActivity homeActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
